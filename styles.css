@@ -1,0 +1,185 @@
+/* Reset and Fonts */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+    background: #1e1e2e;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+#navbar__logo {
+    color: #fff;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.navbar__menu .navbar__links {
+    color: #ffffff;
+    padding: 0 1rem;
+}
+
+.navbar__menu .navbar__links:hover {
+    color: #5c7cfa;
+}
+
+/* Main Hero Section */
+.main__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 3rem 1rem;
+    background: #1b1b2f;
+    color: #ffffff;
+}
+
+.main__content h1 {
+    font-size: 3rem;
+    margin: 10px 0;
+}
+
+.main__content h2 {
+    font-size: 1.8rem;
+    margin: 5px 0;
+}
+
+.main__content p {
+    font-size: 1.1rem;
+    color: #d3d3d3;
+    max-width: 600px;
+}
+
+.main__img--container {
+    margin: 20px 0;
+}
+
+.main__img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Styling */
+.main__btn a {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #5c7cfa;
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.main__btn a:hover {
+    background-color: #4a5dc5;
+}
+
+/* Additional Section */
+.additional__section {
+    padding: 2rem 1rem;
+    background: #1b1b2f;
+    text-align: center;
+    color: #ffffff;
+}
+
+.additional__img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.additional__text {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto;
+    color: #d3d3d3;
+}
+
+/* Footer Styles */
+.footer__container {
+    background: #1e1e2e;
+    padding: 2rem 0;
+    color: #d3d3d3;
+    text-align: center;
+}
+
+.footer__links a {
+    color: #d3d3d3;
+    text-decoration: none;
+}
+
+.footer__links a:hover {
+    color: #5c7cfa;
+}
+
+/* Fullscreen Chat Container */
+.chat__container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #1e1e2e;
+    color: #ffffff;
+}
+
+/* Messages Area - Scrollable */
+.chat__messages {
+    flex: 1;
+    padding: 1rem;
+    overflow-y: auto;
+    background-color: #252540;
+}
+
+/* Input Container Fixed at Bottom */
+.chat__input--container {
+    display: flex;
+    padding: 10px;
+    background-color: #1e1e2e;
+    border-top: 1px solid #333;
+    align-items: center;
+}
+
+.chat__input {
+    flex: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    outline: none;
+}
+
+.chat__send {
+    width: 50px;
+    height: 50px;
+    background-color: #5c7cfa;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat__send:hover {
+    background-color: #4a5dc5;
+}
